@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Debug/diskwwn.exe
+/Debug/diskwwn.pdb
+/Debug/diskwwn.ilk
+/ipch/WWN-b83f2d6f/DISKWWN-34a0e8f3.ipch
+/wwn/Debug/diskwwn.tlog/link.write.1.tlog
+/wwn/Debug/diskwwn.tlog/link.read.1.tlog
+/wwn/Debug/diskwwn.tlog/link.command.1.tlog
+/wwn/Debug/diskwwn.tlog/diskwwn.lastbuildstate
+/wwn/Debug/diskwwn.tlog/CL.write.1.tlog
+/wwn/Debug/diskwwn.tlog/CL.read.1.tlog
+/wwn/Debug/diskwwn.tlog/CL.command.1.tlog

@@ -108,8 +108,6 @@ static const GUID CLSID_DISK_UPPER_FILTER =
 		PIDENTIFY_DEVICE_DATA pIdentityBlob(reinterpret_cast< PIDENTIFY_DEVICE_DATA >(&vBuffer[sizeof(ATA_PASS_THROUGH_EX)]));
 		//printf("Security Frozen: %d\n", pIdentityBlob->SecurityStatus.SecurityFrozen);
 		//printf("TrustedComputing: %d\n", pIdentityBlob->TrustedComputing.FeatureSupported);
-		//printf("MajorRevision: %d\n", pIdentityBlob->MajorRevision);
-		//printf("MinorRevision: %d\n", pIdentityBlob->MinorRevision);
 		//unsigned char model[40] = { 0 };
 		//for (int i = 0; i<40; i += 2)
 		//	REVERSE_BYTES_SHORT(&model[i], &pIdentityBlob->ModelNumber[i]);
@@ -134,8 +132,6 @@ static const GUID CLSID_DISK_UPPER_FILTER =
 	return true;
 }
 
-#define MAWHDD_IOCTLS	0x00008300
-#define MAWHDD_IOCTLS_CHK 0x83
 int main(int argc, _TCHAR* argv[])
 {
 	VendorWWN wwn = { 0 };
